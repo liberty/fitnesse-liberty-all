@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module relativePaths="true" MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_5" inherit-compiler-output="false">
+    <output url="file://$MODULE_DIR$/../fitnesse/classes" />
+    <output-test url="file://$MODULE_DIR$/../fitnesse/classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../fitnesse">
+      <sourceFolder url="file://$MODULE_DIR$/../fitnesse/src" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/../fitnesse/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Maven: junit:junit:4.5" level="project" />
+    <orderEntry type="library" name="Maven: org.htmlparser:htmlparser:1.6" level="project" />
+    <orderEntry type="library" name="Maven: com.sun:tools:1.5.0" level="project" />
+    <orderEntry type="library" name="Maven: org.easymock:easymock:2.4" level="project" />
+    <orderEntry type="library" name="Maven: org.tmatesoft:svn:1.1.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.ant:ant:1.7.1" level="project" />
+    <orderEntry type="library" exported="" name="Maven: org.apache.ant:ant-launcher:1.7.1" level="project" />
+    <orderEntry type="library" exported="" name="Maven: org.apache.velocity:velocity:1.6.2" level="project" />
+    <orderEntry type="library" exported="" name="Maven: commons-collections:commons-collections:3.2.1" level="project" />
+    <orderEntry type="library" exported="" name="Maven: commons-lang:commons-lang:2.4" level="project" />
+    <orderEntry type="library" exported="" name="Maven: oro:oro:2.0.8" level="project" />
+    <orderEntry type="library" name="Maven: org.mockito:mockito-all:1.7" level="project" />
+    <orderEntry type="library" name="Maven: org.fitnesse:fitlibrary:20080812" level="project" />
+    <orderEntry type="library" name="Maven: org.json:json:1.0" level="project" />
+  </component>
+</module>
+

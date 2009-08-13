@@ -1,0 +1,174 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0" is_locked="false">
+    <option name="myName" value="Project Default" />
+    <option name="myLocal" value="false" />
+    <inspection_tool class="RedundantCast" level="WARNING" enabled="false" />
+    <inspection_tool class="MissingOverrideAnnotation" level="ERROR" enabled="false" />
+    <inspection_tool class="SillyAssignment" level="ERROR" enabled="true" />
+    <inspection_tool class="IndexOfReplaceableByContains" level="WARNING" enabled="true" />
+    <inspection_tool class="LawOfDemeter" level="WARNING" enabled="false">
+      <option name="ignoreLibraryCalls" value="false" />
+    </inspection_tool>
+    <inspection_tool class="TestOnlyProblems" level="ERROR" enabled="true" />
+    <inspection_tool class="EnumerationCanBeIteration" level="WARNING" enabled="true" />
+    <inspection_tool class="ParametersPerConstructor" level="WARNING" enabled="true">
+      <option name="m_limit" value="5" />
+    </inspection_tool>
+    <inspection_tool class="UnnecessaryUnaryMinus" level="WARNING" enabled="true" />
+    <inspection_tool class="UnpredictableBigDecimalConstructorCall" level="WARNING" enabled="true" />
+    <inspection_tool class="SuspiciousIndentAfterControlStatement" level="WARNING" enabled="true" />
+    <inspection_tool class="SynchronizedOnLiteralObject" level="ERROR" enabled="true" />
+    <inspection_tool class="ReuseOfLocalVariable" level="WARNING" enabled="true" />
+    <inspection_tool class="TooBroadScope" level="WARNING" enabled="true">
+      <option name="m_allowConstructorAsInitializer" value="false" />
+      <option name="m_onlyLookAtBlocks" value="true" />
+    </inspection_tool>
+    <inspection_tool class="ClassWithTooManyDependencies" level="WARNING" enabled="true">
+      <option name="limit" value="10" />
+    </inspection_tool>
+    <inspection_tool class="CyclicPackageDependency" level="ERROR" enabled="true" />
+    <inspection_tool class="CyclicClassDependency" level="ERROR" enabled="true" />
+    <inspection_tool class="RedundantSuppression" level="ERROR" enabled="true" />
+    <inspection_tool class="ErrorRethrown" level="WARNING" enabled="true" />
+    <inspection_tool class="CaughtExceptionImmediatelyRethrown" level="ERROR" enabled="false" />
+    <inspection_tool class="JUnitAbstractTestClassNamingConvention" level="ERROR" enabled="true">
+      <option name="m_regex" value="[A-Z][A-Za-z\d]*(TestCase|Tests)" />
+      <option name="m_minLength" value="12" />
+      <option name="m_maxLength" value="99" />
+    </inspection_tool>
+    <inspection_tool class="JUnitTestClassNamingConvention" level="ERROR" enabled="true">
+      <option name="m_regex" value="(Test)?[A-Z][A-Za-z\d]*(TestCase|Tests)?" />
+      <option name="m_minLength" value="8" />
+      <option name="m_maxLength" value="99" />
+    </inspection_tool>
+    <inspection_tool class="TestMethodInProductCode" level="ERROR" enabled="true" />
+    <inspection_tool class="TestCaseInProductCode" level="ERROR" enabled="false" />
+    <inspection_tool class="TestCaseWithConstructor" level="ERROR" enabled="true" />
+    <inspection_tool class="MisorderedAssertEqualsParameters" level="ERROR" enabled="true" />
+    <inspection_tool class="SetupCallsSuperSetup" level="ERROR" enabled="true" />
+    <inspection_tool class="MisspelledSetUp" level="ERROR" enabled="true" />
+    <inspection_tool class="SetupIsPublicVoidNoArg" level="WARNING" enabled="true" />
+    <inspection_tool class="TeardownCallsSuperTeardown" level="ERROR" enabled="true" />
+    <inspection_tool class="MisspelledTearDown" level="ERROR" enabled="true" />
+    <inspection_tool class="TeardownIsPublicVoidNoArg" level="ERROR" enabled="true" />
+    <inspection_tool class="TestMethodIsPublicVoidNoArg" level="ERROR" enabled="true" />
+    <inspection_tool class="SystemGC" level="SERVER PROBLEM" enabled="true" />
+    <inspection_tool class="StringBufferField" level="SERVER PROBLEM" enabled="true" />
+    <inspection_tool class="SerializableHasSerialVersionUIDField" level="INFO" enabled="true">
+      <option name="superClassString" value="java.awt.Component" />
+    </inspection_tool>
+    <inspection_tool class="SerialPersistentFieldsWithWrongSignature" level="WARNING" enabled="true" />
+    <inspection_tool class="SerialVersionUIDNotStaticFinal" level="WARNING" enabled="true" />
+    <inspection_tool class="AwaitWithoutCorrespondingSignal" level="SERVER PROBLEM" enabled="true" />
+    <inspection_tool class="AwaitNotInLoop" level="SERVER PROBLEM" enabled="true" />
+    <inspection_tool class="DoubleCheckedLocking" level="SERVER PROBLEM" enabled="true">
+      <option name="ignoreOnVolatileVariables" value="false" />
+    </inspection_tool>
+    <inspection_tool class="EmptySynchronizedStatement" level="ERROR" enabled="true" />
+    <inspection_tool class="FieldAccessedSynchronizedAndUnsynchronized" level="WARNING" enabled="true">
+      <option name="countGettersAndSetters" value="true" />
+    </inspection_tool>
+    <inspection_tool class="SafeLock" level="WARNING" enabled="true" />
+    <inspection_tool class="NotifyCalledOnCondition" level="ERROR" enabled="true" />
+    <inspection_tool class="NotifyNotInSynchronizedContext" level="ERROR" enabled="true" />
+    <inspection_tool class="NotifyWithoutCorrespondingWait" level="ERROR" enabled="true" />
+    <inspection_tool class="NakedNotify" level="ERROR" enabled="true" />
+    <inspection_tool class="SynchronizeOnLock" level="WARNING" enabled="true" />
+    <inspection_tool class="SynchronizeOnThis" level="SERVER PROBLEM" enabled="true" />
+    <inspection_tool class="SignalWithoutCorrespondingAwait" level="ERROR" enabled="true" />
+    <inspection_tool class="WaitNotInSynchronizedContext" level="WARNING" enabled="true" />
+    <inspection_tool class="WaitWithoutCorrespondingNotify" level="WARNING" enabled="true" />
+    <inspection_tool class="WaitWhileHoldingTwoLocks" level="WARNING" enabled="true" />
+    <inspection_tool class="WaitOrAwaitWithoutTimeout" level="WARNING" enabled="true" />
+    <inspection_tool class="WaitNotInLoop" level="WARNING" enabled="true" />
+    <inspection_tool class="WaitCalledOnCondition" level="WARNING" enabled="true" />
+    <inspection_tool class="UnconditionalWait" level="WARNING" enabled="true" />
+    <inspection_tool class="SimplifiableIfStatement" level="WARNING" enabled="false" />
+    <inspection_tool class="AbstractMethodCallInConstructor" level="ERROR" enabled="true" />
+    <inspection_tool class="InstanceVariableInitialization" level="WARNING" enabled="false">
+      <option name="m_ignorePrimitives" value="true" />
+    </inspection_tool>
+    <inspection_tool class="OverridableMethodCallDuringObjectConstruction" level="WARNING" enabled="true" />
+    <inspection_tool class="ThisEscapedInConstructor" level="WARNING" enabled="true" />
+    <inspection_tool class="ThrowableInstanceNeverThrown" level="WARNING" enabled="false" />
+    <inspection_tool class="InfiniteRecursion" level="SERVER PROBLEM" enabled="true" />
+    <inspection_tool class="ThreadDeathRethrown" level="WARNING" enabled="true" />
+    <inspection_tool class="ExceptionFromCatchWhichDoesntWrap" level="WARNING" enabled="true">
+      <option name="ignoreGetMessage" value="true" />
+    </inspection_tool>
+    <inspection_tool class="Plugin.xmlValidity" level="ERROR" enabled="false" />
+    <inspection_tool class="CollectionsFieldAccessReplaceableByMethodCall" level="WARNING" enabled="true" />
+    <inspection_tool class="JRubyImplement" level="ERROR" enabled="false" />
+    <inspection_tool class="WrongTopLevelPackage" level="ERROR" enabled="false" />
+    <inspection_tool class="RailsParamDefResolve" level="WARNING" enabled="false" />
+    <inspection_tool class="RubyDuckType" level="WARNING" enabled="false" />
+    <inspection_tool class="RubyConstAlreadyInitialized" level="WARNING" enabled="false" />
+    <inspection_tool class="RubyConstReAssignment" level="ERROR" enabled="false" />
+    <inspection_tool class="RubyConstant" level="WARNING" enabled="false" />
+    <inspection_tool class="RubyDynamicConstAssignment" level="ERROR" enabled="false" />
+    <inspection_tool class="RubyArgCount" level="ERROR" enabled="false" />
+    <inspection_tool class="RubyJumpError" level="ERROR" enabled="false" />
+    <inspection_tool class="RubyScope" level="WARNING" enabled="false" />
+    <inspection_tool class="RubyArgumentParentheses" level="WARNING" enabled="false" />
+    <inspection_tool class="RubyDeadCode" level="ERROR" enabled="false" />
+    <inspection_tool class="RubyResolve" level="WARNING" enabled="false">
+      <option name="warnImplicitResults" value="false" />
+    </inspection_tool>
+    <inspection_tool class="RubyWrongHash" level="ERROR" enabled="false" />
+    <inspection_tool class="StrutsInspection" level="ERROR" enabled="false" />
+    <inspection_tool class="StrutsTilesInspection" level="ERROR" enabled="false" />
+    <inspection_tool class="StrutsValidatorInspection" level="ERROR" enabled="false" />
+    <inspection_tool class="StrutsValidatorFormInspection" level="ERROR" enabled="false" />
+    <inspection_tool class="BoundFieldAssignment" level="WARNING" enabled="false" />
+    <inspection_tool class="OneButtonGroup" level="WARNING" enabled="false" />
+    <inspection_tool class="DuplicateMnemonic" level="WARNING" enabled="false" />
+    <inspection_tool class="MissingMnemonic" level="WARNING" enabled="false" />
+    <inspection_tool class="NoLabelFor" level="WARNING" enabled="false" />
+    <inspection_tool class="NoButtonGroup" level="WARNING" enabled="false" />
+    <inspection_tool class="NoScrollPane" level="WARNING" enabled="false" />
+    <inspection_tool class="GroovyAccessToStaticFieldLockedOnInstance" level="WARNING" enabled="true" />
+    <inspection_tool class="GroovyBusyWait" level="WARNING" enabled="true" />
+    <inspection_tool class="GroovySystemRunFinalizersOnExit" level="WARNING" enabled="true" />
+    <inspection_tool class="GroovyThreadStopSuspendResume" level="WARNING" enabled="true" />
+    <inspection_tool class="GroovyDoubleCheckedLocking" level="WARNING" enabled="true">
+      <option name="ignoreOnVolatileVariables" value="false" />
+    </inspection_tool>
+    <inspection_tool class="GroovyEmptySyncBlock" level="WARNING" enabled="true" />
+    <inspection_tool class="GroovyNestedSynchronizedStatement" level="WARNING" enabled="true" />
+    <inspection_tool class="GroovyPublicFieldAccessedInSynchronizedContext" level="WARNING" enabled="true" />
+    <inspection_tool class="GroovyNotifyWhileNotSynchronized" level="WARNING" enabled="true" />
+    <inspection_tool class="GroovySynchronizationOnThis" level="WARNING" enabled="true" />
+    <inspection_tool class="GroovySynchronizationOnNonFinalField" level="WARNING" enabled="true" />
+    <inspection_tool class="GroovySynchronizationOnVariableInitializedWithLiteral" level="WARNING" enabled="true" />
+    <inspection_tool class="GroovySynchronizedMethod" level="WARNING" enabled="true" />
+    <inspection_tool class="GroovyUnconditionalWait" level="WARNING" enabled="true" />
+    <inspection_tool class="GroovyUnsynchronizedMethodOverridesSynchronizedMethod" level="WARNING" enabled="true" />
+    <inspection_tool class="GroovyWaitCallNotInLoop" level="WARNING" enabled="true" />
+    <inspection_tool class="GroovyWaitWhileNotSynchronized" level="WARNING" enabled="true" />
+    <inspection_tool class="GroovyWhileLoopSpinsOnField" level="WARNING" enabled="true">
+      <option name="ignoreNonEmtpyLoops" value="false" />
+    </inspection_tool>
+    <inspection_tool class="CallToNativeMethodWhileLocked" level="WARNING" enabled="true" />
+    <inspection_tool class="ThreadYield" level="WARNING" enabled="true" />
+    <inspection_tool class="ThreadStopSuspendResume" level="WARNING" enabled="true" />
+    <inspection_tool class="ThreadStartInConstruction" level="WARNING" enabled="true" />
+    <inspection_tool class="SleepWhileHoldingLock" level="WARNING" enabled="true" />
+    <inspection_tool class="ThreadPriority" level="WARNING" enabled="true" />
+    <inspection_tool class="ThreadRun" level="WARNING" enabled="true" />
+    <inspection_tool class="SystemRunFinalizersOnExit" level="WARNING" enabled="true" />
+    <inspection_tool class="ConditionSignal" level="WARNING" enabled="true" />
+    <inspection_tool class="ObjectNotify" level="WARNING" enabled="true" />
+    <inspection_tool class="BusyWait" level="WARNING" enabled="true" />
+    <inspection_tool class="WebflowModelInspection" level="ERROR" enabled="false" />
+    <inspection_tool class="NoResourceMethodsFound" level="WARNING" enabled="false" />
+    <inspection_tool class="AnnotationHasWrongMIMEType" level="WARNING" enabled="false" />
+    <inspection_tool class="EmptyWebServiceClass" level="WARNING" enabled="false" />
+    <inspection_tool class="VoidMethodAnnotatedWithGET" level="WARNING" enabled="false" />
+    <inspection_tool class="OneWayWebMethod" level="ERROR" enabled="false" />
+    <inspection_tool class="ResourceMethodInNonResourceClass" level="WARNING" enabled="false" />
+    <inspection_tool class="ImplicitlyExposedWebServiceMethods" level="INFO" enabled="false" />
+    <inspection_tool class="NonJaxWsWebServices" level="WARNING" enabled="false" />
+    <inspection_tool class="AmbiguousPathAnnotation" level="WARNING" enabled="false" />
+    <inspection_tool class="ValidExternallyBoundObject" level="ERROR" enabled="false" />
+  </profile>
+</component>

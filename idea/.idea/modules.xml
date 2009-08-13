@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project relativePaths="false" version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/all.iml" filepath="$PROJECT_DIR$/all.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fitnesse.iml" filepath="$PROJECT_DIR$/fitnesse.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rc.iml" filepath="$PROJECT_DIR$/rc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/teamcity.iml" filepath="$PROJECT_DIR$/teamcity.iml" />
+    </modules>
+  </component>
+</project>
+

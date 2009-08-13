@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module relativePaths="true" MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_6" inherit-compiler-output="false">
+    <output url="file://$MODULE_DIR$/../fitnesse-teamcity/target/classes" />
+    <output-test url="file://$MODULE_DIR$/../fitnesse-teamcity/target/test-classes" />
+    <content url="file://$MODULE_DIR$/../fitnesse-teamcity">
+      <sourceFolder url="file://$MODULE_DIR$/../fitnesse-teamcity/src/main/java" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/../fitnesse-teamcity/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="fitnesse" />
+    <orderEntry type="library" exported="" name="Maven: org.fitnesse:fitnesse:20090627" level="project" />
+    <orderEntry type="library" exported="" name="Maven: org.apache.velocity:velocity:1.6.2" level="project" />
+    <orderEntry type="library" exported="" name="Maven: commons-collections:commons-collections:3.2.1" level="project" />
+    <orderEntry type="library" exported="" name="Maven: commons-lang:commons-lang:2.4" level="project" />
+    <orderEntry type="library" exported="" name="Maven: oro:oro:2.0.8" level="project" />
+    <orderEntry type="library" name="Maven: org.json:json:1.0" level="project" />
+    <orderEntry type="library" name="Maven: org.testng:testng:5.9" level="project" />
+    <orderEntry type="library" name="Maven: junit:junit:3.8.1" level="project" />
+  </component>
+</module>
+
