@@ -1,0 +1,9 @@
+[submodule "fitnesse"]
+	path = fitnesse
+	url = git@ssh.github.com:liberty/fitnesse.git
+[submodule "fitnesse-rc"]
+	path = fitnesse-rc
+	url = git@ssh.github.com:liberty/fitnesse-rc.git
+[submodule "fitnesse-teamcity"]
+	path = fitnesse-teamcity
+	url = git@ssh.github.com:liberty/fitnesse-teamcity.git
