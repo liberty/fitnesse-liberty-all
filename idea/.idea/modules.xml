@@ -2,10 +2,10 @@
 <project relativePaths="false" version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/all.iml" filepath="$PROJECT_DIR$/all.iml" />
       <module fileurl="file://$PROJECT_DIR$/fitnesse.iml" filepath="$PROJECT_DIR$/fitnesse.iml" />
-      <module fileurl="file://$PROJECT_DIR$/rc.iml" filepath="$PROJECT_DIR$/rc.iml" />
-      <module fileurl="file://$PROJECT_DIR$/teamcity.iml" filepath="$PROJECT_DIR$/teamcity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fitnesse-all.iml" filepath="$PROJECT_DIR$/fitnesse-all.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fitnesse-rc.iml" filepath="$PROJECT_DIR$/fitnesse-rc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fitnesse-teamcity.iml" filepath="$PROJECT_DIR$/fitnesse-teamcity.iml" />
     </modules>
   </component>
 </project>
