@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module relativePaths="true" MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="false">
+    <output url="file://$MODULE_DIR$/target/classes" />
+    <output-test url="file://$MODULE_DIR$/target/test-classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="fitnesse-rc" exported="" />
+    <orderEntry type="module" module-name="fitnesse-rc" exported="" />
+    <orderEntry type="module" module-name="fitnesse-rc" exported="" />
+    <orderEntry type="module" module-name="fitnesse-rc" exported="" />
+    <orderEntry type="module" module-name="fitnesse-rc" exported="" />
+    <orderEntry type="module" module-name="fitnesse-rc" exported="" />
+    <orderEntry type="module" module-name="fitnesse-rc" exported="" />
+    <orderEntry type="module" module-name="fitnesse-rc" exported="" />
+    <orderEntry type="module" module-name="fitnesse-rc" exported="" />
+    <orderEntry type="module" module-name="fitnesse-rc" exported="" />
+    <orderEntry type="module" module-name="fitnesse-rc" exported="" />
+    <orderEntry type="module" module-name="fitnesse-rc" exported="" />
+    <orderEntry type="module" module-name="fitnesse-rc" exported="" />
+    <orderEntry type="module" module-name="fitnesse-rc" exported="" />
+    <orderEntry type="module" module-name="fitnesse-rc" exported="" />
+    <orderEntry type="module" module-name="fitnesse-rc" exported="" />
+    <orderEntry type="module" module-name="fitnesse-rc" exported="" />
+    <orderEntry type="module" module-name="fitnesse-rc" exported="" />
+    <orderEntry type="module" module-name="fitnesse-rc" exported="" />
+    <orderEntry type="module" module-name="fitnesse-rc" exported="" />
+    <orderEntry type="module" module-name="fitnesse-rc" exported="" />
+    <orderEntry type="module" module-name="fitnesse-rc" exported="" />
+    <orderEntry type="module" module-name="fitnesse-rc" exported="" />
+    <orderEntry type="module" module-name="fitnesse-rc" exported="" />
+    <orderEntry type="module" module-name="fitnesse-rc" exported="" />
+    <orderEntry type="module" module-name="fitnesse-rc" exported="" />
+    <orderEntry type="module" module-name="fitnesse-rc" exported="" />
+    <orderEntry type="module" module-name="fitnesse-rc" exported="" />
+    <orderEntry type="module" module-name="fitnesse-rc" exported="" />
+    <orderEntry type="module" module-name="fitnesse-rc" exported="" />
+    <orderEntry type="module" module-name="fitnesse-rc" exported="" />
+    <orderEntry type="module" module-name="fitnesse-rc" exported="" />
+    <orderEntry type="module" module-name="fitnesse-rc" exported="" />
+    <orderEntry type="module" module-name="fitnesse-rc" exported="" />
+    <orderEntry type="module" module-name="fitnesse-rc" exported="" />
+    <orderEntry type="module" module-name="fitnesse-rc" exported="" />
+    <orderEntry type="module" module-name="fitnesse-rc" exported="" />
+    <orderEntry type="module" module-name="fitnesse-rc" exported="" />
+    <orderEntry type="module" module-name="fitnesse-rc" exported="" />
+    <orderEntry type="module" module-name="fitnesse-rc" exported="" />
+    <orderEntry type="module" module-name="fitnesse-rc" exported="" />
+    <orderEntry type="module" module-name="fitnesse-rc" exported="" />
+    <orderEntry type="module" module-name="fitnesse-rc" exported="" />
+    <orderEntry type="module" module-name="fitnesse-rc" exported="" />
+    <orderEntry type="module" module-name="fitnesse-rc" exported="" />
+    <orderEntry type="module" module-name="fitnesse-rc" exported="" />
+    <orderEntry type="module" module-name="fitnesse-rc" exported="" />
+    <orderEntry type="module" module-name="fitnesse-rc" exported="" />
+    <orderEntry type="module" module-name="fitnesse-rc" exported="" />
+    <orderEntry type="module" module-name="fitnesse-rc" exported="" />
+    <orderEntry type="module" module-name="fitnesse-rc" exported="" />
+    <orderEntry type="module" module-name="fitnesse-rc" exported="" />
+    <orderEntry type="module" module-name="fitnesse-rc" exported="" />
+    <orderEntry type="module" module-name="fitnesse-rc" exported="" />
+    <orderEntry type="module" module-name="fitnesse-rc" exported="" />
+    <orderEntry type="module" module-name="fitnesse-rc" exported="" />
+    <orderEntry type="module" module-name="fitnesse-rc" exported="" />
+    <orderEntry type="module" module-name="fitnesse-rc" exported="" />
+    <orderEntry type="module" module-name="fitnesse-rc" exported="" />
+    <orderEntry type="module" module-name="fitnesse-rc" exported="" />
+    <orderEntry type="module" module-name="fitnesse-rc" exported="" />
+    <orderEntry type="module" module-name="fitnesse-rc" exported="" />
+    <orderEntry type="module" module-name="fitnesse-rc" exported="" />
+    <orderEntry type="module" module-name="fitnesse-rc" exported="" />
+    <orderEntry type="module" module-name="fitnesse-rc" exported="" />
+    <orderEntry type="module" module-name="fitnesse-rc" exported="" />
+    <orderEntry type="module" module-name="fitnesse-rc" exported="" />
+    <orderEntry type="module" module-name="fitnesse-rc" exported="" />
+    <orderEntry type="module" module-name="fitnesse-rc" exported="" />
+    <orderEntry type="module" module-name="fitnesse-rc" exported="" />
+    <orderEntry type="module" module-name="fitnesse-rc" exported="" />
+    <orderEntry type="module" module-name="fitnesse-rc" exported="" />
+    <orderEntry type="module" module-name="fitnesse-rc" exported="" />
+    <orderEntry type="module" module-name="fitnesse-rc" exported="" />
+    <orderEntry type="module" module-name="fitnesse-rc" exported="" />
+    <orderEntry type="module" module-name="fitnesse-rc" exported="" />
+    <orderEntry type="module" module-name="fitnesse-rc" exported="" />
+    <orderEntry type="module" module-name="fitnesse-rc" exported="" />
+    <orderEntry type="module" module-name="fitnesse-rc" exported="" />
+    <orderEntry type="module" module-name="fitnesse-rc" exported="" />
+    <orderEntry type="module" module-name="fitnesse-rc" exported="" />
+    <orderEntry type="module" module-name="fitnesse-rc" exported="" />
+    <orderEntry type="module" module-name="fitnesse-rc" exported="" />
+    <orderEntry type="module" module-name="fitnesse-rc" exported="" />
+    <orderEntry type="module" module-name="fitnesse-rc" exported="" />
+    <orderEntry type="module" module-name="fitnesse-rc" exported="" />
+    <orderEntry type="module" module-name="fitnesse-rc" exported="" />
+    <orderEntry type="module" module-name="fitnesse-rc" exported="" />
+    <orderEntry type="module" module-name="fitnesse-rc" exported="" />
+    <orderEntry type="module" module-name="fitnesse-rc" exported="" />
+    <orderEntry type="module" module-name="fitnesse-rc" exported="" />
+    <orderEntry type="module" module-name="fitnesse-rc" exported="" />
+    <orderEntry type="module" module-name="fitnesse-rc" exported="" />
+    <orderEntry type="module" module-name="fitnesse-rc" exported="" />
+    <orderEntry type="module" module-name="fitnesse-rc" exported="" />
+    <orderEntry type="module" module-name="fitnesse-rc" exported="" />
+    <orderEntry type="module" module-name="fitnesse-rc" exported="" />
+    <orderEntry type="module" module-name="fitnesse-rc" exported="" />
+    <orderEntry type="module" module-name="fitnesse-rc" exported="" />
+    <orderEntry type="module" module-name="fitnesse-rc" exported="" />
+    <orderEntry type="module" module-name="fitnesse-rc" exported="" />
+    <orderEntry type="module" module-name="fitnesse-rc" exported="" />
+    <orderEntry type="module" module-name="fitnesse-rc" exported="" />
+    <orderEntry type="module" module-name="fitnesse-rc" exported="" />
+    <orderEntry type="module" module-name="fitnesse-rc" exported="" />
+    <orderEntry type="module" module-name="fitnesse-rc" exported="" />
+    <orderEntry type="module" module-name="fitnesse-rc" exported="" />
+    <orderEntry type="module" module-name="fitnesse-rc" exported="" />
+    <orderEntry type="module" module-name="fitnesse-rc" exported="" />
+    <orderEntry type="module" module-name="fitnesse-rc" exported="" />
+    <orderEntry type="library" exported="" name="Maven: org.fitnesse:fitnesse:20090709-SNAPSHOT" level="project" />
+    <orderEntry type="library" exported="" name="Maven: org.apache.velocity:velocity:1.6.2" level="project" />
+    <orderEntry type="library" exported="" name="Maven: commons-collections:commons-collections:3.2.1" level="project" />
+    <orderEntry type="library" exported="" name="Maven: commons-lang:commons-lang:2.4" level="project" />
+    <orderEntry type="library" exported="" name="Maven: oro:oro:2.0.8" level="project" />
+    <orderEntry type="library" name="Maven: org.json:json:1.0" level="project" />
+    <orderEntry type="module" module-name="fitnesse-rc" exported="" />
+    <orderEntry type="library" exported="" name="Maven: org.tmatesoft.svnkit:svnkit:1.3.0.5847" level="project" />
+    <orderEntry type="module" module-name="fitnesse-rc" exported="" />
+    <orderEntry type="module" module-name="fitnesse-teamcity" exported="" />
+    <orderEntry type="module" module-name="fitnesse-teamcity" exported="" />
+  </component>
+</module>
+

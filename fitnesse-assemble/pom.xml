@@ -1,0 +1,86 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+   <modelVersion>4.0.0</modelVersion>
+   <parent>
+      <groupId>com.sabre.liberty.fitnesse</groupId>
+      <artifactId>fitnesse-all</artifactId>
+      <version>20090709-SNAPSHOT</version>
+      <relativePath>../pom.xml</relativePath>
+   </parent>
+
+   <groupId>com.sabre.liberty.fitnesse</groupId>
+   <artifactId>fitnesse-assemble</artifactId>
+   <name>fitnesse-assemble</name>
+   <version>${parent.version}</version>
+
+   <dependencies>
+      <dependency>
+         <groupId>org.fitnesse</groupId>
+         <artifactId>fitnesse</artifactId>
+         <version>${project.version}</version>
+      </dependency>
+<!--
+      <dependency>
+         <groupId>org.fitnesse</groupId>
+         <artifactId>fitnesse</artifactId>
+         <version>${project.version}</version>
+         <classifier>sources</classifier>
+      </dependency>
+-->
+
+      <dependency>
+         <groupId>org.fitnesse</groupId>
+         <artifactId>fitnesse-rc</artifactId>
+         <version>20090722</version>
+      </dependency>
+      <dependency>
+         <groupId>org.fitnesse</groupId>
+         <artifactId>fitnesse-rc</artifactId>
+         <version>20090722</version>
+         <classifier>sources</classifier>
+      </dependency>
+
+      <dependency>
+         <groupId>org.fitnesse</groupId>
+         <artifactId>fitnesse-teamcity</artifactId>
+         <version>${project.version}</version>
+      </dependency>
+      <dependency>
+         <groupId>org.fitnesse</groupId>
+         <artifactId>fitnesse-teamcity</artifactId>
+         <version>${project.version}</version>
+         <classifier>sources</classifier>
+      </dependency>
+   </dependencies>
+
+   <packaging>jar</packaging>
+   <properties>
+      <jdk.version>1.6</jdk.version>
+   </properties>
+
+   <build>
+      <plugins>
+         <plugin>
+            <inherited>false</inherited>
+            <artifactId>maven-dependency-plugin</artifactId>
+            <executions>
+               <execution>
+                  <id>copy-dependencies</id>
+                  <phase>package</phase>
+                  <goals>
+                     <goal>copy-dependencies</goal>
+                  </goals>
+                  <configuration>
+                     <outputDirectory>${project.build.directory}/dist</outputDirectory>
+                     <overWriteReleases>true</overWriteReleases>
+                     <overWriteSnapshots>true</overWriteSnapshots>
+                     <overWriteIfNewer>true</overWriteIfNewer>
+                     <!--excluding scope test did not work-->
+                     <excludeGroupIds>junit,org.jmock,org.hamcrest,org.testng</excludeGroupIds>
+                  </configuration>
+               </execution>
+            </executions>
+         </plugin>
+      </plugins>
+   </build>
+</project>
