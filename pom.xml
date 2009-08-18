@@ -8,14 +8,13 @@
    <dependencies>
    </dependencies>
    <packaging>pom</packaging>
-   <version>20090627</version>
+   <version>20090709-SNAPSHOT</version>
    <scm>
       <connection>scm:svn:svn://liberty.sabre.com/utilities/fitnesse-liberty</connection>
       <developerConnection>scm:svn:svn://liberty.sabre.com/utilities/fitnesse-liberty</developerConnection>
       <url>http://liberty.sabre.com/svn/utilities/fitnesse-liberty</url>
    </scm>
    <modules> 
-      <module>fitnesse</module>
       <module>fitnesse-teamcity</module>
       <module>fitnesse-rc</module>
    </modules>
@@ -28,7 +27,7 @@
          <dependency>
             <groupId>org.fitnesse</groupId>
             <artifactId>fitnesse</artifactId>
-            <version>20090627</version>
+            <version>20090709-SNAPSHOT</version>
          </dependency>
          <dependency>
             <groupId>org.testng</groupId>
