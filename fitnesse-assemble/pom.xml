@@ -12,51 +12,38 @@
    <artifactId>fitnesse-assemble</artifactId>
    <name>fitnesse-assemble</name>
    <version>${parent.version}</version>
+   <packaging>pom</packaging>
+
+   <properties>
+      <jdk.version>1.6</jdk.version>
+      <fitnesse.version>${project.version}</fitnesse.version>
+      <fitnesse-rc.version>20090722</fitnesse-rc.version>
+      <fitnesse-teamcity.version>${project.version}</fitnesse-teamcity.version>
+      <fitlibrary.version>20090712-SNAPSHOT</fitlibrary.version>
+   </properties>
 
    <dependencies>
       <dependency>
          <groupId>org.fitnesse</groupId>
          <artifactId>fitnesse</artifactId>
-         <version>${project.version}</version>
-      </dependency>
-<!--
-      <dependency>
-         <groupId>org.fitnesse</groupId>
-         <artifactId>fitnesse</artifactId>
-         <version>${project.version}</version>
-         <classifier>sources</classifier>
-      </dependency>
--->
-
-      <dependency>
-         <groupId>org.fitnesse</groupId>
-         <artifactId>fitnesse-rc</artifactId>
-         <version>20090722</version>
+         <version>${fitnesse.version}</version>
       </dependency>
       <dependency>
          <groupId>org.fitnesse</groupId>
          <artifactId>fitnesse-rc</artifactId>
-         <version>20090722</version>
-         <classifier>sources</classifier>
-      </dependency>
-
-      <dependency>
-         <groupId>org.fitnesse</groupId>
-         <artifactId>fitnesse-teamcity</artifactId>
-         <version>${project.version}</version>
+         <version>${fitnesse-rc.version}</version>
       </dependency>
       <dependency>
          <groupId>org.fitnesse</groupId>
          <artifactId>fitnesse-teamcity</artifactId>
-         <version>${project.version}</version>
-         <classifier>sources</classifier>
+         <version>${fitnesse-teamcity.version}</version>
+      </dependency>
+      <dependency>
+         <groupId>com.sabre.liberty.fitlibrary</groupId>
+         <artifactId>fitlibrary</artifactId>
+         <version>${fitlibrary.version}</version>
       </dependency>
    </dependencies>
-
-   <packaging>jar</packaging>
-   <properties>
-      <jdk.version>1.6</jdk.version>
-   </properties>
 
    <build>
       <plugins>
@@ -65,7 +52,7 @@
             <artifactId>maven-dependency-plugin</artifactId>
             <executions>
                <execution>
-                  <id>copy-dependencies</id>
+                  <id>copy-src-dependencies</id>
                   <phase>package</phase>
                   <goals>
                      <goal>copy-dependencies</goal>
@@ -74,7 +61,22 @@
                      <outputDirectory>${project.build.directory}/dist</outputDirectory>
                      <overWriteReleases>true</overWriteReleases>
                      <overWriteSnapshots>true</overWriteSnapshots>
-                     <overWriteIfNewer>true</overWriteIfNewer>
+                     <classifier>sources</classifier>
+                     <failOnMissingClassifierArtifact>false</failOnMissingClassifierArtifact>
+                     <!--excluding scope test did not work-->
+                     <excludeGroupIds>junit,org.jmock,org.hamcrest,org.testng</excludeGroupIds>
+                  </configuration>
+               </execution>
+               <execution>
+                  <id>copy-jar-dependencies</id>
+                  <phase>package</phase>
+                  <goals>
+                     <goal>copy-dependencies</goal>
+                  </goals>
+                  <configuration>
+                     <outputDirectory>${project.build.directory}/dist</outputDirectory>
+                     <overWriteReleases>true</overWriteReleases>
+                     <overWriteSnapshots>true</overWriteSnapshots>
                      <!--excluding scope test did not work-->
                      <excludeGroupIds>junit,org.jmock,org.hamcrest,org.testng</excludeGroupIds>
                   </configuration>

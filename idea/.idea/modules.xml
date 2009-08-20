@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/fitnesse-all.iml" filepath="$PROJECT_DIR$/fitnesse-all.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fitnesse-assemble.iml" filepath="$PROJECT_DIR$/fitnesse-assemble.iml" />
       <module fileurl="file://$PROJECT_DIR$/fitnesse-rc.iml" filepath="$PROJECT_DIR$/fitnesse-rc.iml" />
       <module fileurl="file://$PROJECT_DIR$/fitnesse-teamcity.iml" filepath="$PROJECT_DIR$/fitnesse-teamcity.iml" />
     </modules>

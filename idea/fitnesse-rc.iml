@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module relativePaths="false" MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
-  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_5" inherit-compiler-output="false">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_6" inherit-compiler-output="false">
     <output url="file:///home/jmorel/liberty/fitnesse-all/fitnesse-rc/target/classes" />
     <output-test url="file:///home/jmorel/liberty/fitnesse-all/fitnesse-rc/target/test-classes" />
     <content url="file:///home/jmorel/liberty/fitnesse-all/fitnesse-rc">
@@ -9,14 +9,14 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" exported="" name="Maven: org.fitnesse:fitnesse:20090627" level="project" />
+    <orderEntry type="library" exported="" name="Maven: org.fitnesse:fitnesse:20090709-SNAPSHOT" level="project" />
     <orderEntry type="library" exported="" name="Maven: org.apache.velocity:velocity:1.6.2" level="project" />
     <orderEntry type="library" exported="" name="Maven: commons-collections:commons-collections:3.2.1" level="project" />
     <orderEntry type="library" exported="" name="Maven: commons-lang:commons-lang:2.4" level="project" />
     <orderEntry type="library" exported="" name="Maven: oro:oro:2.0.8" level="project" />
-    <orderEntry type="library" name="Maven: org.json:json:1.0" level="project" />
+    <orderEntry type="library" exported="" name="Maven: org.json:json:20090211" level="project" />
     <orderEntry type="library" exported="" name="Maven: org.tmatesoft.svnkit:svnkit:1.3.0.5847" level="project" />
-    <orderEntry type="library" exported="" name="Maven: junit:junit:4.4" level="project" />
+    <orderEntry type="library" name="Maven: junit:junit:4.5" level="project" />
     <orderEntry type="library" name="Maven: org.easymock:easymock:2.4" level="project" />
   </component>
 </module>
